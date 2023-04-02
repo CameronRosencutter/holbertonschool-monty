@@ -41,6 +41,7 @@ void _swap(stack_t **stack, unsigned int line_number)
  * Return: null
  */
 
+void _add(stack_t **stack, unsigned int line_number)
 {
 	int i = 0, sum = 0;
 	stack_t *temp;
@@ -48,7 +49,7 @@ void _swap(stack_t **stack, unsigned int line_number)
 	temp = *stack;
 	while (temp)
 	{
-		temp + temp->next;
+		temp = temp->next;
 		i++;
 	}
 

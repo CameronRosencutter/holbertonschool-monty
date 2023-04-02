@@ -11,7 +11,7 @@
 #include <string.h>
 
 /**
- * struct stack_s - doubly linked list 
+ * struct stack_s - doubly linked lis 
  * @n: integer
  * @prev: previous
  * @next: next
